@@ -5,7 +5,7 @@
 ",
   "main": "index.js",
   "scripts": {
-    "test": echo "OK" && npm start index.js
+    "test": "echo \"OK\" && npm start index.js"
   },
   "author": "JinseoMyeon",
   "license": "ISC",
