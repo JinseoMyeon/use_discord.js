@@ -1,11 +1,10 @@
 {
-  "name": "discord.js",
+  "name": "seomyeonwiki",
   "version": "1.0.0",
-  "description": "'[가상국가전쟁]'이라는 본인이 주최한 컨텐츠를 주최자가 '그저 편하게 운영해나가기 위해' 기본적인 규칙들을 봇 명령어를 활용
-",
+  "description": "seomyeonwiki for discord",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"OK\" && npm start index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "JinseoMyeon",
   "license": "ISC",
