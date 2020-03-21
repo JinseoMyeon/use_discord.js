@@ -1,0 +1,39 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/web/.nvm/versions/node/v12.13.1/bin/node',
+1 verbose cli   '/web/.nvm/versions/node/v12.13.1/bin/npm',
+1 verbose cli   'start'
+1 verbose cli ]
+2 info using npm@6.12.1
+3 info using node@v12.13.1
+4 verbose config Skipping project config: /web/.npmrc. (matches userconfig)
+5 verbose run-script [ 'prestart', 'start', 'poststart' ]
+6 info lifecycle virtual_national_war@1.0.0~prestart: virtual_national_war@1.0.0
+7 info lifecycle virtual_national_war@1.0.0~start: virtual_national_war@1.0.0
+8 verbose lifecycle virtual_national_war@1.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle virtual_national_war@1.0.0~start: PATH: /web/.nvm/versions/node/v12.13.1/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/web/node_modules/.bin:/web/.nvm/versions/node/v12.13.1/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/web/.local/bin:/web/bin
+10 verbose lifecycle virtual_national_war@1.0.0~start: CWD: /web
+11 silly lifecycle virtual_national_war@1.0.0~start: Args: [ '-c', 'node index.js' ]
+12 silly lifecycle virtual_national_war@1.0.0~start: Returned: code: 1  signal: null
+13 info lifecycle virtual_national_war@1.0.0~start: Failed to exec start script
+14 verbose stack Error: virtual_national_war@1.0.0 start: `node index.js`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/web/.nvm/versions/node/v12.13.1/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:332:16)
+14 verbose stack     at EventEmitter.emit (events.js:210:5)
+14 verbose stack     at ChildProcess.<anonymous> (/web/.nvm/versions/node/v12.13.1/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+14 verbose stack     at ChildProcess.emit (events.js:210:5)
+14 verbose stack     at maybeClose (internal/child_process.js:1021:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:283:5)
+15 verbose pkgid virtual_national_war@1.0.0
+16 verbose cwd /web
+17 verbose Linux 3.10.0-957.27.2.el7.x86_64
+18 verbose argv "/web/.nvm/versions/node/v12.13.1/bin/node" "/web/.nvm/versions/node/v12.13.1/bin/npm" "start"
+19 verbose node v12.13.1
+20 verbose npm  v6.12.1
+21 error code ELIFECYCLE
+22 error errno 1
+23 error virtual_national_war@1.0.0 start: `node index.js`
+23 error Exit status 1
+24 error Failed at the virtual_national_war@1.0.0 start script.
+24 error This is probably not a problem with npm. There is likely additional logging output above.
+25 verbose exit [ 1, true ]
